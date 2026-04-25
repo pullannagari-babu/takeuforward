@@ -10,9 +10,11 @@ Next, for each subarray starting from index i and ending at index j (i.e., arr[i
 If the sum equals k, we consider its length, which is (j-i+1). Among all such subarrays, we keep track of the maximum length by comparing all the lengths.
 Dry Run
 
-Image 1
-
-1/5
+https://static.takeuforward.org/premium/Hashing/FAQs/Longest%20subarray%20with%20sum%20K-dup/a1.svg-F2i35tSJ
+https://static.takeuforward.org/premium/Hashing/FAQs/Longest%20subarray%20with%20sum%20K-dup/a2.svg-wFzsDdLk
+https://static.takeuforward.org/premium/Hashing/FAQs/Longest%20subarray%20with%20sum%20K-dup/a3.svg-zrE56Vfm
+https://static.takeuforward.org/premium/Hashing/FAQs/Longest%20subarray%20with%20sum%20K-dup/a4.svg-jSp67Z82
+https://static.takeuforward.org/premium/Hashing/FAQs/Longest%20subarray%20with%20sum%20K-dup/a5.svg-fKzBTt5o
 
 Solution
 
