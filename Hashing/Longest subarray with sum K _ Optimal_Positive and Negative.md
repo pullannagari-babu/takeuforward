@@ -229,6 +229,7 @@ const len = solution.longestSubarray(nums, k);
 console.log("The length of the longest subarray is:", len);
 
 C#:
+
 using System;
 using System.Collections.Generic;
 
@@ -285,10 +286,9 @@ public static void Main(string[] args)
 }
 
 Go:
+
 package main
-
 import "fmt"
-
 func longestSubarray(nums []int, k int) int {
     n := len(nums)
 
