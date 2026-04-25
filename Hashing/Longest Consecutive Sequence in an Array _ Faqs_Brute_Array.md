@@ -1,5 +1,5 @@
- Medium
-
+Medium
+Faqs_Brute_Array_Longest Consecutive Sequence in an Array.md
 Given an array nums of n integers.
 Return the length of the longest sequence of consecutive integers. The integers in this sequence can appear in any order.
 Example 1
