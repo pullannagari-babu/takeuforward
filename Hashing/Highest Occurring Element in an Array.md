@@ -76,10 +76,12 @@ int mostFrequentElement(int nums[], int n) {
     
     // Boolean array to keep track of processed elements
     bool visited[n];
-    for (int i = 0; i < n; i++) visited[i] = false;
+    for (int i = 0; i < n; i++) 
+		visited[i] = false;
     
     for (int i = 0; i < n; i++) {
-        if (visited[i]) continue;
+        if (visited[i]) 
+			continue;
         
         int freq = 0;
         // Count occurrences of nums[i]
