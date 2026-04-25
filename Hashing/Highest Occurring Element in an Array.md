@@ -64,6 +64,58 @@ Dry Run:
 1/9
 
 Solution:
+C:
+
+#include <stdio.h>
+#include <stdbool.h>
+
+// Function to find the most frequent element
+int mostFrequentElement(int nums[], int n) {
+    int maxFreq = 0;
+    int maxEle = nums[0];
+    
+    // Boolean array to keep track of processed elements
+    bool visited[n];
+    for (int i = 0; i < n; i++) visited[i] = false;
+    
+    for (int i = 0; i < n; i++) {
+        if (visited[i]) continue;
+        
+        int freq = 0;
+        // Count occurrences of nums[i]
+        for (int j = i; j < n; j++) {
+            if (nums[i] == nums[j]) {
+                freq++;
+                visited[j] = true;
+            }
+        }
+        
+        // Update logic for max frequency
+        if (freq > maxFreq) {
+            maxFreq = freq;
+            maxEle = nums[i];
+        } else if (freq == maxFreq) {
+            // Find the minimum element in case of a tie
+            if (nums[i] < maxEle) {
+                maxEle = nums[i];
+            }
+        }
+    }
+    return maxEle;
+}
+
+int main() {
+    int nums[] = {4, 4, 5, 5, 6};
+    int n = sizeof(nums) / sizeof(nums[0]);
+    
+    int ans = mostFrequentElement(nums, n);
+    
+    printf("The highest occurring element in the array is: %d\n", ans);
+    
+    return 0;
+}
+
+
 C++
 
 class Solution {
