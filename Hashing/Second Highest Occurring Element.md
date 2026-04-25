@@ -33,15 +33,25 @@ Loop through each element in the array. For each element, if it hasn't been coun
 Compare the frequency of the current element with the highest and second highest frequencies. Update the highest and second highest frequencies and their corresponding elements as needed.
 If two elements have the same frequency, choose the smaller one. After processing all elements, return the element with the second highest frequency.
 Dry Run:
+
 https://static.takeuforward.org/premium/Beginner%20Problems/Basic%20Hashing/Second%20highest%20occurring%20element/1.png-oXihNMjN
+
 https://static.takeuforward.org/premium/Beginner%20Problems/Basic%20Hashing/Second%20highest%20occurring%20element/2.png-pT7yDMQJ
+
 https://static.takeuforward.org/premium/Beginner%20Problems/Basic%20Hashing/Second%20highest%20occurring%20element/3.png-gxpTO8fz
+
 https://static.takeuforward.org/premium/Beginner%20Problems/Basic%20Hashing/Second%20highest%20occurring%20element/4.png-ZAelXBIV
+
 https://static.takeuforward.org/premium/Beginner%20Problems/Basic%20Hashing/Second%20highest%20occurring%20element/5.png-MHoqUCRy
+
 https://static.takeuforward.org/premium/Beginner%20Problems/Basic%20Hashing/Second%20highest%20occurring%20element/6.png-PpqMVNpa
+
 https://static.takeuforward.org/premium/Beginner%20Problems/Basic%20Hashing/Second%20highest%20occurring%20element/7.png--hiHzT3T
+
 https://static.takeuforward.org/premium/Beginner%20Problems/Basic%20Hashing/Second%20highest%20occurring%20element/8.png-DtqWFXas
+
 https://static.takeuforward.org/premium/Beginner%20Problems/Basic%20Hashing/Second%20highest%20occurring%20element/9.png-9OdvCTwx
+
 https://static.takeuforward.org/premium/Beginner%20Problems/Basic%20Hashing/Second%20highest%20occurring%20element/10.png-Mk4kFwIT
 
 1/10
